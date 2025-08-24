@@ -1,7 +1,7 @@
 # DevFolio: Project Tags Feature
 
 This document contains the **complete code and documentation** for the Project Tagging system in DevFolio.  
-It demonstrates a **full-stack enhancement**: relational database design, service-layer logic, and frontend integration.
+Relational Database Design, Service-Layer Logic, and Frontend Integration.
 
 ---
 
