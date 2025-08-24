@@ -32,7 +32,6 @@ This defines a **many-to-many relationship** between `projects` and `tags`.
 
 
 ```js
-// server/src/services/projectTags.js
 // Extended service layer for DevFolio: add tagging & filtering to projects.
 // Demonstrates relational queries, validation, and multi-table joins.
 
@@ -113,9 +112,8 @@ export async function getProjectsByTag(userId, tag) {
 
 
 ```jsx
-// client/src/ui/ProjectTags.jsx
-// Tag management UI for DevFolio projects.
-// Shows full-stack fluency: controlled inputs, fetch calls, async state mgmt.
+// Tag management UI for DevFolio.
+// Controlled inputs, fetch calls, async state mgmt.
 
 import { useEffect, useState } from "react";
 
