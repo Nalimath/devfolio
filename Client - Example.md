@@ -32,5 +32,5 @@ src/
 
 ---
 
-## ⚙ Config
+## Config
 API base URL is set to `http://localhost:4000`. Update in `src/ui/*` if needed.
