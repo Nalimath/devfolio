@@ -30,7 +30,6 @@ This defines a **many-to-many relationship** between `projects` and `tags`.
 
 ## Backend Code
 
-File: `server/src/services/projectTags.js`
 
 ```js
 // server/src/services/projectTags.js
@@ -112,7 +111,6 @@ export async function getProjectsByTag(userId, tag) {
 
 ## Frontend Code
 
-File: `client/src/ui/ProjectTags.jsx`
 
 ```jsx
 // client/src/ui/ProjectTags.jsx
@@ -204,13 +202,4 @@ export default function ProjectTags({ projectId, token }) {
 4. UI re-renders with updated tag list  
 5. Projects can be filtered by tag using `getProjectsByTag`  
 
----
 
-## Why This Matters
-
-- **Backend:** SQL joins, transactions, service-layer modularity  
-- **Frontend:** React hooks, controlled inputs, async fetch  
-- **Database:** Many-to-many relationships, integrity constraints  
-- **Professional polish:** Documentation, comments, error handling  
-
-This feature shows depth in **both backend and frontend engineering** while staying directly relevant to DevFolio.
